@@ -2,15 +2,15 @@
 
 With help of [QuitStore](https://github.com/AKSW/QuitStore) and [Vue.js](https://vuejs.org/) we try to generate views helping to analyze Removals and Additions of Triples (RDF).
 
-To understand how the QuitStore and its provenance feature works you read this [paper](https://arxiv.org/pdf/1805.03721.pdf).
+To understand how the QuitStore and its provenance feature works you can read this [paper](https://arxiv.org/pdf/1805.03721.pdf).
 
 This project is currently WIP.
 
 ## Form
 
-If started a query against the given endpoint (type in another QuitStore-Provenance endpoint if needed) is executed which collects all commits.
-You can select a commit and after this more queries are executed to collect the changesets.
-The changesets will be visualized if parsed accordingly.
+If started, the app will fire a query against the given endpoint (type in another QuitStore-Provenance endpoint if needed) to collect all commits and their metadata.
+After this you can select a commit and the App will collect the changesets.
+After parsing the responses, the changesets will be visualized by the selected orientation.
 
 ## Project Setup
 
