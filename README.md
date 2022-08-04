@@ -38,3 +38,4 @@ npm run build
 * speed up (use local store so only one query is needed for orientation views.)
 * create views for semantical changes (rdfs, owl)
 * highlight diffs
+* visualize diffs of quads
