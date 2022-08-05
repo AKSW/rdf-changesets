@@ -16,7 +16,7 @@
         commits: [],
         currentCommit: "",
         orientation: "s",
-        endpoint: "http://localhost:5000/provenance",
+        endpoint: "https://coy-ontology-quit.nate.eccenca.dev/provenance",
         index: {'s': [], 'p': [], 'o': []}
 
       }
